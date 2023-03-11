@@ -127,36 +127,78 @@ nav {
     font-weight: 700;
 }
 
-.text-position {
+.text-position-60 {
     display: block;
     position: relative;
     top: 60px;
 }
 
+.text-position-20 {
+    display: block;
+    position: relative;
+    top: 20px;
+}
+
 .text-color {
     color: var(--btn-bg);
 }
-.text-service{
+
+.text-service {
     font-size: 12px;
     font-weight: 700;
-    letter-spacing:5px;
+    letter-spacing: 5px;
 }
-.padding-1{
+
+.padding-1 {
     padding-top: 100px;
 }
-.text-service-text{
+
+.text-service-text {
     font-weight: 700;
     color: var(--viollet);
 }
-.text-title{
+
+.text-title {
     letter-spacing: 2px;
     color: blue;
     font-size: 10px;
     font-weight: 700;
 }
-.text-title-sous{
+
+.text-title-sous {
     color: var(--light-grey);
     font-weight: 700;
     font-size: 30px;
 
+}
+
+.bg-img-intro-1 {
+    background: url(../Image/depositphotos_125905666-stock-photo-young-woman-with-headphones.jpg) no-repeat;
+    background-size: cover;
+}
+
+.bg-img-intro-2 {
+    background: url(../Image/joyful-african-american-millennial-guy-260nw-2120760845.webp) no-repeat;
+    background-size: cover;
+}
+
+.bg-img-intro-3 {
+    background: url(../Image/jeune-femme-venezuelienne-isolee-fond-bleu-sourires-joyeux-pointant-vers-avant_1187-160561.jpg) no-repeat;
+    background-size: 100% 100%;
+}
+
+.bg-img-intro-4 {
+    background: url(../Image/concept-joyeux-anniversaire-jeune-femme-ballons-fond-bleu_185193-82999.avif) no-repeat;
+    background-size: cover;
+}
+
+.section-footer {
+    /* border-top: 2px solid blue; */
+    box-shadow: 0 0 100px rgb(217, 216, 216);
+    padding-top: 50px;
+    position: relative;
+    bottom: -150px;
+}
+.cont-foot{
+    border-top: 2px solid rgb(190, 186, 186);
 }
