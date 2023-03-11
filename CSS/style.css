@@ -1,0 +1,162 @@
+:root {
+    --red-special: rgb(240, 70, 70);
+    --viollet: rgb(60, 60, 126);
+    --light-grey: #f7f7f7;
+    --dark: #0e1010;
+    --dark-bg: rgb(43, 49, 62);
+    --btn-bg: #627792;
+    --red-bg: #fc5546;
+    --color-bd: #e8e9ea;
+    --trans: all 0.3s ease-in-out;
+}
+
+.logo {
+    display: flex;
+    width: 300px;
+    padding-top: 20px;
+}
+
+.navigation {
+    text-align: center;
+    width: 50%;
+    /* background-color: aqua; */
+}
+
+.client {
+    margin-top: 20px;
+    justify-content: space-between;
+    width: 250px;
+
+}
+
+nav {
+    margin: auto;
+    width: 95%;
+    border-top: 1px solid rgb(180, 180, 180);
+
+}
+
+.nav-item {
+    /* width: 20%; */
+    display: block;
+    padding: 10px;
+    border-top: 2px solid #f7f7f7;
+}
+
+.nav-item:hover {
+    border-top: 2px solid red;
+}
+
+.nav-link {
+    width: 20%;
+
+}
+
+.nav-link:hover {
+    color: var(--red-bg);
+
+}
+
+.savoir-plus {
+    display: flex;
+    position: relative;
+    bottom: -100px;
+    width: 150%;
+    height: 100px;
+    border-radius: 10px;
+    color: #f7f7f7;
+    justify-content: space-between;
+    background: var(--btn-bg);
+    box-shadow: 0px 0px 20px rgb(54, 54, 54);
+    padding: 20px;
+}
+
+.title-savoir-plus {
+    display: block;
+    padding-top: 15px;
+}
+
+.btn-plus {
+    width: 30%;
+    color: #f7f7f7;
+    background-color: var(--red-special);
+    border: 2px solid var(--red-special);
+    border-radius: 10px;
+}
+
+.height {
+    height: 250px;
+}
+
+.position {
+    position: relative;
+    top: 130px;
+    height: 150px;
+    width: 300px;
+    box-shadow: 0px 0px 10px var(--btn-bg);
+    border-radius: 0px 0px 10px 10px;
+
+}
+
+.bg-image1 {
+    background: url(../Image/smart-confidence-asian-female-startup-entrepreneur-small-business-owner-businesswoman-wear-smart-casual-cloth-smile-hand-use-tablet-woking-inventory-checking-showroom-office-daytime-background_609648-342.avif) no-repeat;
+    background-size: cover;
+}
+
+.bg-image2 {
+    background: url(../Image/datacenter-en-maintenance-660x400.jpg) no-repeat;
+    background-size: cover;
+}
+
+.bg-image3 {
+    background: url(../Image/hebergeur-revendeur-hebergement-web.webp) no-repeat;
+    background-size: cover;
+}
+
+.padding {
+    padding: 30px 5px;
+}
+
+.titre {
+    color: blue;
+    font-weight: 700;
+}
+
+.sous-titre {
+    color: var(--viollet);
+    font-weight: 700;
+}
+
+.text-position {
+    display: block;
+    position: relative;
+    top: 60px;
+}
+
+.text-color {
+    color: var(--btn-bg);
+}
+.text-service{
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing:5px;
+}
+.padding-1{
+    padding-top: 100px;
+}
+.text-service-text{
+    font-weight: 700;
+    color: var(--viollet);
+}
+.text-title{
+    letter-spacing: 2px;
+    color: blue;
+    font-size: 10px;
+    font-weight: 700;
+}
+.text-title-sous{
+    color: var(--light-grey);
+    font-weight: 700;
+    font-size: 30px;
+
+}
