@@ -83,7 +83,10 @@ nav {
     border: 2px solid var(--red-special);
     border-radius: 10px;
 }
-
+.btn-plus:hover {
+    transition: 0.5s;
+    opacity: 0.5;
+}
 .height {
     height: 250px;
 }
@@ -199,6 +202,56 @@ nav {
     position: relative;
     bottom: -150px;
 }
-.cont-foot{
+
+.cont-foot {
     border-top: 2px solid rgb(190, 186, 186);
+}
+
+.ico-fb {
+    width: 40px;
+    height: 40px;
+    border-radius: 100px;
+    border: 2px solid rgb(47, 79, 239);
+    margin-right: 5px;
+    color: blue;
+}
+
+.fb-pos {
+    display: block;
+    position: relative;
+    top: 10px;
+    color: rgb(140, 141, 141);
+    font-size: 15px;
+}
+
+.ico-env {
+    width: 40px;
+    height: 40px;
+    margin-right: 5px;
+    color: blue;
+}
+
+.env-pos {
+    display: block;
+    position: relative;
+    top: 13px;
+    color: rgb(140, 141, 141);
+    font-size: 15px;
+    color: blue;
+}
+
+.ico-phone {
+    width: 50px;
+    height: 70px;
+    margin-right: 5px;
+    color: blue;
+}
+
+.phone-pos {
+    display: block;
+    position: relative;
+    top: 15px;
+    color: rgb(140, 141, 141);
+    font-size: 15px;
+    color: blue;
 }

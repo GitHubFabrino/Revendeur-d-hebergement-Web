@@ -117,7 +117,8 @@ ul {
 .grid-img{
     
     width: 50%;
-    /* background-color: black; */
+    background-color: black;
+    margin-top: 150px;
 }
 .grid-1{
     display: flex;
