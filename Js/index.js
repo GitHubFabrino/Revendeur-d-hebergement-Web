@@ -1,10 +1,9 @@
 $(document).ready(() => {
 
 
-    $(".btn-plus").click(function () {
-        $("div").animate({
-            height: 'toggle'
-        });
+    $("body").hover(function () {
+        $("body").css(    "background-color", "red"
+            )
     });
 
     $("#ok").on('click', () => {
