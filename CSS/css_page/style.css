@@ -1,0 +1,165 @@
+:root {
+    --red-special: rgb(240, 70, 70);
+    --viollet: rgb(60, 60, 126);
+    --light-grey: #f7f7f7;
+    --dark: #0e1010;
+    --dark-bg: rgb(43, 49, 62);
+    --btn-bg: #627792;
+    --red-bg: #fc5546;
+    --color-bd: #e8e9ea;
+    --trans: all 0.3s ease-in-out;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: #ffffff75;
+}
+
+/* Pour le Titre et paragraphe */
+h3 .Titre{
+    font-weight: 700;
+    color: var(--viollet);
+}
+
+h4{
+    font-weight: 600;
+    color: var(--viollet);
+}
+h6{
+    font-weight: 600;
+    font-size: 12px;
+}
+/* ********************* */
+header{
+    background-color: var(--viollet);
+}
+
+.logo-hebergeo-img {
+    width: 200px;
+    height: 60px;
+    background-color: #138888;
+    margin: 0% auto;
+}
+.PhraseEntete{
+    margin: 20px auto;
+    display: flex;
+    padding: 10px;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    /* background-color: rebeccapurple; */
+}
+.Titre{
+    font-weight: 700;
+    color: var(--viollet);
+}
+.TitlePhrase{
+    /* background-color: #fc5546; */
+    width: 60%;
+    margin: 0px;
+}
+.PhraseAccros{
+    margin: 0px;
+    /* background-color: aqua; */
+    width: 150px;
+    color: var(--viollet);
+}
+.Item1{
+    margin: 10px auto;
+    /* background-color: #bf8c87; */
+
+}
+.Items{
+    /* background-color: #5f0e0e; */
+    display: flex;
+    flex-flow: row wrap;
+}
+.sub-item{
+    /* background-color: yellow; */
+    width: 230px;
+    padding: 0%;
+    margin: 10px auto;
+}
+.descriptionItem{
+    height: 200px;
+    background-color: rgb(251, 250, 249);
+    text-align: center;
+    padding: 20px 10px;
+    color: var(--viollet);
+    box-shadow: 0px 0px 5px rgb(222, 218, 218);
+}
+
+.descriptionItem h2{
+    font-size: 220%;
+    font-weight: 800;
+    /* background-color: rebeccapurple; */
+    margin: 5%;
+}
+.descriptionItem p{
+    font-weight: 550;
+}
+.Info-Item{
+    margin: 8% auto;
+    padding: 20px ;
+    height: 100px;
+    border-radius: 4px;
+    background-color: rgba(94, 140, 240, 0.406);
+}
+
+.Info-Item p{
+    font-weight: 500;
+    font-size: 12px;
+    color: var(--viollet);
+}
+.Info-Item span{
+    font-weight: 700;
+}
+/* ************* ***************************/
+.Items-payement{
+    height: 700px;
+    padding: 10px 0%;
+    background-color: cornsilk;
+    display: flex;
+    flex-flow: row wrap;
+}
+.Items-type-payement{
+    width: 300px;
+    margin: 20px auto;
+    /* background-color: chartreuse; */
+
+    padding: 0px ;
+}
+.payement-description{
+    height: 50px;
+    /* background-color: red; */
+    margin: 10px auto;
+    border-radius: 3px;
+    padding: 0px;
+    display: flex;
+    background-color: #e8e9ea;
+    /* border: 1px solid var(--viollet); */
+    justify-content: space-between;
+}
+
+.Nom-payment{
+    width: 45%;
+    height: 100%;
+    /* background-color: #0e1010; */
+    margin: 0px;
+    padding: 5%;
+}
+.Radio_chois{
+    margin-right: 10px;
+    border: 1px solid red;
+}
+.Logo_payement{
+    width: 45%;
+    height: 100%;
+    background-color: #0e1010;
+    margin: 0px;
+}
+.Payement-Formulaire{
+    width: 500px;
+    height: 700px;
+    background-color: coral;
+}
