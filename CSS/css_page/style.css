@@ -17,21 +17,23 @@ body {
 }
 
 /* Pour le Titre et paragraphe */
-h3 .Titre{
+h3 .Titre {
     font-weight: 700;
     color: var(--viollet);
 }
 
-h4{
+h4 {
     font-weight: 600;
     color: var(--viollet);
 }
-h6{
+
+h6 {
     font-weight: 600;
     font-size: 12px;
 }
+
 /* ********************* */
-header{
+header {
     background-color: var(--viollet);
 }
 
@@ -41,7 +43,8 @@ header{
     background-color: #138888;
     margin: 0% auto;
 }
-.PhraseEntete{
+
+.PhraseEntete {
     margin: 20px auto;
     display: flex;
     padding: 10px;
@@ -49,38 +52,45 @@ header{
     justify-content: space-between;
     /* background-color: rebeccapurple; */
 }
-.Titre{
+
+.Titre {
     font-weight: 700;
     color: var(--viollet);
 }
-.TitlePhrase{
+
+.TitlePhrase {
     /* background-color: #fc5546; */
     width: 60%;
     margin: 0px;
 }
-.PhraseAccros{
+
+.PhraseAccros {
     margin: 0px;
     /* background-color: aqua; */
     width: 150px;
     color: var(--viollet);
 }
-.Item1{
+
+.Item1 {
     margin: 10px auto;
     /* background-color: #bf8c87; */
 
 }
-.Items{
+
+.Items {
     /* background-color: #5f0e0e; */
     display: flex;
     flex-flow: row wrap;
 }
-.sub-item{
+
+.sub-item {
     /* background-color: yellow; */
     width: 230px;
     padding: 0%;
     margin: 10px auto;
 }
-.descriptionItem{
+
+.descriptionItem {
     height: 200px;
     background-color: rgb(251, 250, 249);
     text-align: center;
@@ -89,77 +99,184 @@ header{
     box-shadow: 0px 0px 5px rgb(222, 218, 218);
 }
 
-.descriptionItem h2{
+.descriptionItem h2 {
     font-size: 220%;
     font-weight: 800;
     /* background-color: rebeccapurple; */
     margin: 5%;
 }
-.descriptionItem p{
+
+.descriptionItem p {
     font-weight: 550;
 }
-.Info-Item{
+
+.Info-Item {
     margin: 8% auto;
-    padding: 20px ;
+    padding: 20px;
     height: 100px;
     border-radius: 4px;
     background-color: rgba(94, 140, 240, 0.406);
 }
 
-.Info-Item p{
+.Info-Item p {
     font-weight: 500;
     font-size: 12px;
     color: var(--viollet);
 }
-.Info-Item span{
+
+.Info-Item span {
     font-weight: 700;
 }
+
 /* ************* ***************************/
-.Items-payement{
-    height: 700px;
+.Items-payement {
+    /* height: 700px; */
     padding: 10px 0%;
-    background-color: cornsilk;
+    /* background-color: cornsilk; */
     display: flex;
     flex-flow: row wrap;
 }
-.Items-type-payement{
-    width: 300px;
-    margin: 20px auto;
-    /* background-color: chartreuse; */
 
-    padding: 0px ;
+.Items-type-payement {
+    width: 350px;
+    margin: 20px auto;
+    border-radius: 5px;
+    /* background-color: var(--light-grey); */
+    padding: 0px;
+    /* box-shadow: 0 0 2px rgb(109, 108, 108); */
+
 }
-.payement-description{
+
+.payement-description {
     height: 50px;
     /* background-color: red; */
-    margin: 10px auto;
-    border-radius: 3px;
+    margin: 20px auto;
+    width: 90%;
+    border-radius: 5px;
     padding: 0px;
     display: flex;
     background-color: #e8e9ea;
-    /* border: 1px solid var(--viollet); */
     justify-content: space-between;
 }
 
-.Nom-payment{
+.Nom-payment {
     width: 45%;
     height: 100%;
     /* background-color: #0e1010; */
     margin: 0px;
     padding: 5%;
 }
-.Radio_chois{
+
+.Radio_chois {
     margin-right: 10px;
     border: 1px solid red;
 }
-.Logo_payement{
+
+.Logo_payement {
     width: 45%;
     height: 100%;
-    background-color: #0e1010;
+    background-color: #27b4b4;
     margin: 0px;
 }
-.Payement-Formulaire{
+
+.Payement-Formulaire {
     width: 500px;
-    height: 700px;
-    background-color: coral;
+    padding: 10px 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 2px rgb(109, 108, 108);
+    background-color: var(--light-grey);
+}
+
+form h5 {
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.Pays {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid rgb(218, 217, 217);
+    border-radius: 10px;
+    margin-bottom: 20px;
+    height: 35px;
+}
+.Pays::placeholder{
+    font-size: 13px;
+}
+.details{
+    margin-left: 20px;
+    color: var(--viollet);
+}
+.Remise , .Taxesfrais{
+    /* background-color: rebeccapurple; */
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+    margin: 5px auto;
+}
+.Remise h5 , .Taxesfrais h5{
+    color: black;
+    font-weight: 600;
+    font-size: 15px;
+    margin: 0px !important;
+}
+.money{
+    color: #138876 !important;
+}
+.Total{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    padding: 0%;
+
+}
+.Total h4{
+    color: #0e1010 !important;
+}
+form h6{
+    margin: 20px 0;
+    color: var(--viollet);
+}
+.Carte , .Date-payement{
+    margin: 10px auto;
+    font-size: 12px;
+    display: flex;
+    justify-content: space-between;
+
+}
+.Carte input ,.Date-payement input{
+    border: 1px solid var(--color-bd);
+    border-radius: 2px;
+    padding: 9px;
+    width: 45%;
+}
+.Carte input::placeholder ,.Date-payement input::placeholder{
+    font-size: 12px;
+}
+.buttonPayement{
+    margin: 10px auto;
+    font-size: 12px;
+    display: flex;
+    /* background-color: rebeccapurple; */
+    justify-content: space-between;
+}
+.buttonPayement button{
+    color: var(--light-grey);
+    width: 50%;
+    height: 50px;
+    margin: 20px auto;
+    border: 1px solid var(--viollet);
+    border-radius: 5px ;
+    background-color: var(--viollet);
+}
+.securisation{
+    width: 47%;
+}
+.securisation h6{
+    margin: 10px;
+    padding: 0%;
+}
+.TermeEtCondition{
+    font-size: 12px;
+    font-weight: bold;
 }
