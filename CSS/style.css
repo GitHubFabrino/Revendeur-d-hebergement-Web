@@ -13,7 +13,13 @@
 .logo {
     display: flex;
     width: 300px;
+    /* height: 0px; */
     padding-top: 20px;
+    /* background-color: rebeccapurple; */
+    background: url('../Image/logo.png') no-repeat;
+    background-size: 80%;
+    background-position: 20px;
+    /* background-repeat: no-repeat; */
 }
 
 .navigation {
@@ -23,17 +29,24 @@
 }
 
 .client {
-    margin-top: 20px;
+    margin-top: 10px;
     justify-content: space-between;
     width: 250px;
+    /* background-color: #fc5546; */
 
 }
 
 nav {
+    position: relative;
+    top: 10px;
     margin: auto;
     width: 95%;
     border-top: 1px solid rgb(180, 180, 180);
+    
 
+}
+.nav-intro{
+    height: 20px;
 }
 
 .nav-item {
@@ -46,15 +59,31 @@ nav {
 .nav-item:hover {
     border-top: 2px solid red;
 }
-
-.nav-link {
-    width: 20%;
+.nav-item:hover .nav-link {
+    color: var(--red-bg);
+}
+.nav-bar{
+    justify-content: space-around;
 
 }
 
-.nav-link:hover {
-    color: var(--red-bg);
+.nav-link {
+    width: 20%;
+}
 
+.button-seconnecter{
+    position: relative;
+    top: 5px;
+    width: 70%;
+    height: 40px;
+    border-radius: 10px;
+    border: 1px solid var(--btn-bg);
+    background: var(--btn-bg);
+    color: #f7f7f7;
+}
+.button-seconnecter:hover{
+    opacity: 0.8;
+    transition: ease-in-out ;
 }
 
 .savoir-plus {
@@ -70,7 +99,9 @@ nav {
     box-shadow: 0px 0px 20px rgb(54, 54, 54);
     padding: 20px;
 }
-
+.title-svp{
+    overflow: hidden;
+}
 .title-savoir-plus {
     display: block;
     padding-top: 15px;
@@ -139,7 +170,12 @@ nav {
 .text-position-20 {
     display: block;
     position: relative;
-    top: 20px;
+    top: 10px;
+}
+.text-position-30 {
+    display: block;
+    position: relative;
+    top: 50px;
 }
 
 .text-color {
@@ -157,6 +193,7 @@ nav {
 }
 
 .text-service-text {
+    
     font-weight: 700;
     color: var(--viollet);
 }
@@ -254,4 +291,12 @@ nav {
     color: rgb(140, 141, 141);
     font-size: 15px;
     color: blue;
+}
+.partenariat{
+    height: 100px;
+}
+
+.position-bottom{
+    position: relative;
+    bottom: -30px;
 }
