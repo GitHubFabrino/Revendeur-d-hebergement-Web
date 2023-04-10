@@ -42,6 +42,10 @@ header {
     height: 60px;
     background-color: #138888;
     margin: 0% auto;
+    padding: 0px !important;
+    background: url('../../Image/logo.png') no-repeat;
+    background-size: 100% ;
+    background-position: 15px;
 }
 
 .PhraseEntete {
@@ -50,7 +54,6 @@ header {
     padding: 10px;
     flex-flow: row wrap;
     justify-content: space-between;
-    /* background-color: rebeccapurple; */
 }
 
 .Titre {
@@ -59,32 +62,28 @@ header {
 }
 
 .TitlePhrase {
-    /* background-color: #fc5546; */
     width: 60%;
     margin: 0px;
 }
 
 .PhraseAccros {
+    display: flex;
+    justify-content: space-between;
     margin: 0px;
-    /* background-color: aqua; */
     width: 150px;
     color: var(--viollet);
 }
 
 .Item1 {
     margin: 10px auto;
-    /* background-color: #bf8c87; */
-
 }
 
 .Items {
-    /* background-color: #5f0e0e; */
     display: flex;
     flex-flow: row wrap;
 }
 
 .sub-item {
-    /* background-color: yellow; */
     width: 230px;
     padding: 0%;
     margin: 10px auto;
@@ -102,7 +101,6 @@ header {
 .descriptionItem h2 {
     font-size: 220%;
     font-weight: 800;
-    /* background-color: rebeccapurple; */
     margin: 5%;
 }
 
@@ -130,9 +128,7 @@ header {
 
 /* ************* ***************************/
 .Items-payement {
-    /* height: 700px; */
     padding: 10px 0%;
-    /* background-color: cornsilk; */
     display: flex;
     flex-flow: row wrap;
 }
@@ -141,15 +137,12 @@ header {
     width: 350px;
     margin: 20px auto;
     border-radius: 5px;
-    /* background-color: var(--light-grey); */
     padding: 0px;
-    /* box-shadow: 0 0 2px rgb(109, 108, 108); */
 
 }
 
 .payement-description {
     height: 50px;
-    /* background-color: red; */
     margin: 20px auto;
     width: 90%;
     border-radius: 5px;
@@ -158,13 +151,20 @@ header {
     background-color: #e8e9ea;
     justify-content: space-between;
 }
+.boucllier{
+    width: 30px;
+    height: 30px;
+   margin-right: 10px;
+   position: relative;
+   top: 8px;
+}
 
 .Nom-payment {
-    width: 45%;
+    width: 50%;
     height: 100%;
-    /* background-color: #0e1010; */
     margin: 0px;
     padding: 5%;
+    font-size: 13px;
 }
 
 .Radio_chois {
@@ -172,11 +172,30 @@ header {
     border: 1px solid red;
 }
 
-.Logo_payement {
+.Logo_payement{
     width: 45%;
     height: 100%;
-    background-color: #27b4b4;
     margin: 0px;
+    background-color: rgb(210, 210, 210);
+}
+
+.paypal {
+    background: url('../../icon/PayPal.svg.png') no-repeat;
+    background-size: 90%;
+    background-position: 5px;
+}
+.mvola{
+    background: url('../../icon/mvola.png_large') no-repeat ;
+    background-size: 140px 95%;
+}
+.airtel {
+    background: url('../../icon/airtel-money.webp') no-repeat ;
+    background-size: contain;
+    background-position: 15px;
+}
+.orange {
+    background-image: url('../../icon/orange_money.jpg') ;
+    background-size: 100% 100%;
 }
 
 .Payement-Formulaire {
@@ -208,7 +227,6 @@ form h5 {
     color: var(--viollet);
 }
 .Remise , .Taxesfrais{
-    /* background-color: rebeccapurple; */
     display: flex;
     justify-content: space-between;
     padding: 5px;
@@ -257,7 +275,6 @@ form h6{
     margin: 10px auto;
     font-size: 12px;
     display: flex;
-    /* background-color: rebeccapurple; */
     justify-content: space-between;
 }
 .buttonPayement button{
